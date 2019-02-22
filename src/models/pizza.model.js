@@ -7,5 +7,4 @@ let PizzaSchema = new Schema({
 });
 
 
-// Export the model
 module.exports = mongoose.model('Pizza', PizzaSchema);
